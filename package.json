@@ -2,15 +2,21 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
-    "start": "next start"
+    "dev": "node-dev server.js",
+    "start": "node server.js",
+    "test" : "eslint ."
   },
   "dependencies": {
-    "next": "latest",
+    "express": "^4.18.2",
+    "next": "^13.5.5-canary.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@andwin/eslint-config": "^0.0.15",
+    "node-dev": "^8.0.0"
   }
 }

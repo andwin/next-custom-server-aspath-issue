@@ -1,0 +1,9 @@
+{
+  "extends": "@andwin/eslint-config",
+  "parserOptions": {
+    "ecmaVersion": 2020
+   },
+  "rules": {
+    "react/prop-types": "off"
+  }
+}
